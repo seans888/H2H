@@ -1,3 +1,0 @@
-Wesley Silvestre
-
-CORNEL

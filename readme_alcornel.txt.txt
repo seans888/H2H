@@ -1,1 +1,0 @@
-Argel Janfred L. Cornel

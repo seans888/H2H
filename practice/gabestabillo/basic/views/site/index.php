@@ -34,12 +34,11 @@ $this->title = 'My Yii Application';
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <h2>Purpose and Description</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>
+The main purpose of inspection is to provide quality assurance, condition of the systems and components of every facilities of the hotel that are defective or insufficient and need immediate attention, that could have a deleterious effect on the building and its occupants or economic value or marketability of the property. Conditions may be safety concerns, damage, insufficiency or deterioration of hotel components and facilities, anticipated problem due to existing defects or age of hotel component and equipment.
+</p>
 
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
             </div>

@@ -20,57 +20,45 @@ $this->title = 'Facility Inspection Module';
                 <h2>Gabriel Estabillo</h2>
 				<h4>Project Manager</h4>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>Description</p>
 
                 <p><a class="btn btn-default" href="
 						https://www.facebook.com/gab.estabillo">Facebook &raquo;</a>
 					<a class="btn btn-default" href="
-						https://www.facebook.com/gab.estabillo">Facebook &raquo;</a>
+						https://www.facebook.com/gab.estabillo">Twitter &raquo;</a>
             </div>
             <div class="col-lg-3">
                 <h2>Argel Cornel</h2>
 				<h4>Project Documentation</h4>
 				
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>Description</p>
 
                 <p><a class="btn btn-default" href="
 						https://www.facebook.com/gab.estabillo">Facebook &raquo;</a>
 					<a class="btn btn-default" href="
-						https://www.facebook.com/gab.estabillo">Facebook &raquo;</a></p>
+						https://www.facebook.com/gab.estabillo">Twitter &raquo;</a></p>
             </div>
             <div class="col-lg-3">
                 <h2>Leo Pogi Salvador</h2>
 				<h4>Project Analyst</h4>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>Description</p>
 
                 <p><a class="btn btn-default" href="
 						https://www.facebook.com/gab.estabillo">Facebook &raquo;</a>
 					<a class="btn btn-default" href="
-						https://www.facebook.com/gab.estabillo">Facebook &raquo;</a></p>
+						https://www.facebook.com/gab.estabillo">Twitter &raquo;</a></p>
             </div>
 			  <div class="col-lg-3">
                 <h2>Wesley Silvestre</h2>
 				<h4>Project Coder</h4>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>Description</p>
 
                 <p><a class="btn btn-default" href="
 						https://www.facebook.com/gab.estabillo">Facebook &raquo;</a>
 					<a class="btn btn-default" href="
-						https://www.facebook.com/gab.estabillo">Facebook &raquo;</a></p>
+						https://www.facebook.com/gab.estabillo">Twitter &raquo;</a></p>
             </div>
         </div>
 

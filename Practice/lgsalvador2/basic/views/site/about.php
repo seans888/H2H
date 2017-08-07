@@ -17,6 +17,8 @@ $this->title = 'Facility Inspection Module';
 
         <div class="row">
             <div class="col-lg-3">
+			<img src="\source\basic\Picture\facebook.png" width="125" height="125" title="Logo of a company" alt="Logo of a company" />
+
                 <h2>Gabriel Estabillo</h2>
 				<h4>Project Manager</h4>
 

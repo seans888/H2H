@@ -17,7 +17,7 @@ $this->title = 'Facility Inspection Module';
 
         <div class="row">
             <div class="col-lg-3">
-			<img src="\\Picture\gab.jpg" width="125" height="125" title="Logo of a company" alt="Logo of a company" />
+			<img src="\facility\Picture\gab.jpg" width="125" height="125" title="Logo of a company" alt="Logo of a company" />
 
                 <h2>Gabriel Estabillo</h2>
 				<h4>Project Manager</h4>

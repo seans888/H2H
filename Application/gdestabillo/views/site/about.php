@@ -43,7 +43,7 @@ $this->title = 'Facility Inspection Module';
 						https://www.facebook.com/gab.estabillo">Twitter &raquo;</a></p>
             </div>
             <div class="col-lg-3">
-				<img src="\schedule\Picture\leo.jpg" width="125" height="125" title="Logo of a company" alt="Logo of a company" />
+				<img src="\\Picture\leo.jpg" width="125" height="125" title="Logo of a company" alt="Logo of a company" />
                 <h2>Leo Pogi Salvador</h2>
 				<h4>Project Analyst</h4>
 

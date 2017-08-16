@@ -27,7 +27,7 @@ $this->title = 'H2H Application';
 				to their shareholders, at all times upholding the highest standards of corporate governance in all their 
 				businesses. </p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.sminvestments.com/hotels-and-convention-centers">SM Hotels and Convention Center &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Project Context</h2>

@@ -20,12 +20,12 @@ $this->title = 'H2H Application';
             <div class="col-lg-4">
                 <h2>Client</h2>
 
-                <p>Shoe Mart (SM) Hotels was established to address the vast potential of tourism in the Philippines. 
+                <p align="justify">Shoe Mart (SM) Hotels was established to address the vast potential of tourism in the Philippines. 
 				Its vision and mission is to build world-class businesses that are catalysts for development in the 
 				communities they serve and partner with their host communities to provide a consistently high standard 
 				of service to their customers, look after the welfare of their employees and deliver sustainable returns 
 				to their shareholders, at all times upholding the highest standards of corporate governance in all their 
-				businesses. </p>
+				businesses. </p>s
 
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
             </div>

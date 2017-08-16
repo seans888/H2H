@@ -9,8 +9,10 @@ use Yii;
  *
  * @property integer $id
  * @property string $checklist_equipment
- * @property string $checklist_quantity_on_hand
+ * @property integer $checklist_quantity_on_hand
+ * @property string $checklistcol
  *
+ * @property ChecklistTemplate[] $checklistTemplates
  * @property Facility[] $facilities
  */
 class Checklist extends \yii\db\ActiveRecord
@@ -29,7 +31,9 @@ class Checklist extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['checklist_equipment', 'checklist_quantity_on_hand'], 'string', 'max' => 45],
+            [['id'], 'required'],
+            [['id', 'checklist_quantity_on_hand'], 'integer'],
+            [['checklist_equipment', 'checklistcol'], 'string', 'max' => 45],
         ];
     }
 
@@ -42,7 +46,16 @@ class Checklist extends \yii\db\ActiveRecord
             'id' => 'ID',
             'checklist_equipment' => 'Checklist Equipment',
             'checklist_quantity_on_hand' => 'Checklist Quantity On Hand',
+            'checklistcol' => 'Checklistcol',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getChecklistTemplates()
+    {
+        return $this->hasMany(ChecklistTemplate::className(), ['checklist_id' => 'id']);
     }
 
     /**

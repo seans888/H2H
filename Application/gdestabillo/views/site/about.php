@@ -17,7 +17,7 @@ $this->title = 'Facility Inspection Module';
 
         <div class="row">
             <div class="col-lg-3">
-			<img src="\source\basic\Picture\facebook.png" width="125" height="125" title="Logo of a company" alt="Logo of a company" />
+			<img src="\schedule\Picture\gab.jpg" width="125" height="125" title="Logo of a company" alt="Logo of a company" />
 
                 <h2>Gabriel Estabillo</h2>
 				<h4>Project Manager</h4>
@@ -30,7 +30,9 @@ $this->title = 'Facility Inspection Module';
 						https://www.facebook.com/gab.estabillo">Twitter &raquo;</a>
             </div>
             <div class="col-lg-3">
+				<img src="\schedule\Picture\argel.jpg" width="125" height="125" title="Logo of a company" alt="Logo of a company" />
                 <h2>Argel Cornel</h2>
+				
 				<h4>Project Documentation</h4>
 				
                 <p>Description</p>
@@ -41,6 +43,7 @@ $this->title = 'Facility Inspection Module';
 						https://www.facebook.com/gab.estabillo">Twitter &raquo;</a></p>
             </div>
             <div class="col-lg-3">
+				<img src="\schedule\Picture\leo.jpg" width="125" height="125" title="Logo of a company" alt="Logo of a company" />
                 <h2>Leo Pogi Salvador</h2>
 				<h4>Project Analyst</h4>
 
@@ -52,6 +55,7 @@ $this->title = 'Facility Inspection Module';
 						https://www.facebook.com/gab.estabillo">Twitter &raquo;</a></p>
             </div>
 			  <div class="col-lg-3">
+			  	<img src="\schedule\Picture\wes.jpg" width="125" height="125" title="Logo of a company" alt="Logo of a company" />
                 <h2>Wesley Silvestre</h2>
 				<h4>Project Coder</h4>
 

@@ -11,7 +11,7 @@ $this->title = 'H2H Application';
 
         <p class="lead">Welcome!</p>
 
-        <p><a class="btn btn-lg btn-success" href="https://trello.com/">Get started</a></p>
+        <p><a class="btn btn-lg btn-success" href="http://projects2.apc.edu.ph/wiki/index.php/H2H:_Facility_Inspection_Management_System">Get started</a></p>
     </div>
 
     <div class="body-content">

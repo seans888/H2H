@@ -30,8 +30,7 @@ class Checklist extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id'], 'required'],
-            [['id', 'checklist_quantity_on_hand'], 'integer'],
+            [['checklist_quantity_on_hand'], 'integer'],
             [['checklist_equipment'], 'string', 'max' => 45],
         ];
     }

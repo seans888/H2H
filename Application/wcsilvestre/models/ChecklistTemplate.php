@@ -33,10 +33,11 @@ class ChecklistTemplate extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+            [['checklist_template_temperature'], 'number'],
             [['checklist_template_equipment_number', 'checklist_id'], 'integer'],
             [['checklist_id'], 'required'],
             [['checklist_template_type'], 'string', 'max' => 10],
-            [['checklist_template_equipment', 'checklist_template_temperature'], 'string', 'max' => 45],
+            [['checklist_template_equipment'], 'string', 'max' => 45],
             [['checklist_template_equipment_description'], 'string', 'max' => 60],
             [['checklist_id'], 'exist', 'skipOnError' => true, 'targetClass' => Checklist::className(), 'targetAttribute' => ['checklist_id' => 'id']],
         ];

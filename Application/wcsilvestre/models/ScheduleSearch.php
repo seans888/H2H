@@ -5,12 +5,12 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Schedule;
+use app\models\schedule;
 
 /**
- * ScheduleSearch represents the model behind the search form about `app\models\Schedule`.
+ * ScheduleSearch represents the model behind the search form about `app\models\schedule`.
  */
-class ScheduleSearch extends Schedule
+class ScheduleSearch extends schedule
 {
     /**
      * @inheritdoc
@@ -41,7 +41,7 @@ class ScheduleSearch extends Schedule
      */
     public function search($params)
     {
-        $query = Schedule::find();
+        $query = schedule::find();
 
         // add conditions that should always apply here
 

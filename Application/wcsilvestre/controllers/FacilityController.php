@@ -4,7 +4,7 @@ namespace app\Controllers;
 
 use Yii;
 use app\models\Facility;
-use app\models\FailitySearch;
+use app\models\FacilitySearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -35,7 +35,7 @@ class FacilityController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new FailitySearch();
+        $searchModel = new FacilitySearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [

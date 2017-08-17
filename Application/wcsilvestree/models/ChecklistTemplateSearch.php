@@ -5,12 +5,12 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\schedule;
+use app\models\ChecklistTemplate;
 
 /**
- * ScheduleSearch represents the model behind the search form about `app\models\schedule`.
+ * ChecklistTemplateSearch represents the model behind the search form about `app\models\ChecklistTemplate`.
  */
-class ScheduleSearch extends schedule
+class ChecklistTemplateSearch extends ChecklistTemplate
 {
     /**
      * @inheritdoc
@@ -18,8 +18,9 @@ class ScheduleSearch extends schedule
     public function rules()
     {
         return [
-            [['id'], 'integer'],
-            [['schudule_date'], 'safe'],
+            [['id', 'checklist_template_equipment_number', 'checklist_id'], 'integer'],
+            [['checklist_template_type', 'checklist_template_equipment', 'checklist_template_equipment_description'], 'safe'],
+            [['checklist_template_temperature'], 'number'],
         ];
     }
 
@@ -41,7 +42,7 @@ class ScheduleSearch extends schedule
      */
     public function search($params)
     {
-        $query = schedule::find();
+        $query = ChecklistTemplate::find();
 
         // add conditions that should always apply here
 
@@ -60,8 +61,14 @@ class ScheduleSearch extends schedule
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-            'schudule_date' => $this->schudule_date,
+            'checklist_template_temperature' => $this->checklist_template_temperature,
+            'checklist_template_equipment_number' => $this->checklist_template_equipment_number,
+            'checklist_id' => $this->checklist_id,
         ]);
+
+        $query->andFilterWhere(['like', 'checklist_template_type', $this->checklist_template_type])
+            ->andFilterWhere(['like', 'checklist_template_equipment', $this->checklist_template_equipment])
+            ->andFilterWhere(['like', 'checklist_template_equipment_description', $this->checklist_template_equipment_description]);
 
         return $dataProvider;
     }

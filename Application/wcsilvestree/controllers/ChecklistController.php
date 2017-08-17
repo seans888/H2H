@@ -1,18 +1,18 @@
 <?php
 
-namespace app\Controllers;
+namespace app\controllers;
 
 use Yii;
-use app\models\Facility;
-use app\models\FacilitySearch;
+use app\models\Checklist;
+use app\models\ChecklistSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * FacilityController implements the CRUD actions for Facility model.
+ * ChecklistController implements the CRUD actions for Checklist model.
  */
-class FacilityController extends Controller
+class ChecklistController extends Controller
 {
     /**
      * @inheritdoc
@@ -30,12 +30,12 @@ class FacilityController extends Controller
     }
 
     /**
-     * Lists all Facility models.
+     * Lists all Checklist models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new FacilitySearch();
+        $searchModel = new ChecklistSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -45,29 +45,28 @@ class FacilityController extends Controller
     }
 
     /**
-     * Displays a single Facility model.
+     * Displays a single Checklist model.
      * @param integer $id
-     * @param integer $checklist_id
      * @return mixed
      */
-    public function actionView($id, $checklist_id)
+    public function actionView($id)
     {
         return $this->render('view', [
-            'model' => $this->findModel($id, $checklist_id),
+            'model' => $this->findModel($id),
         ]);
     }
 
     /**
-     * Creates a new Facility model.
+     * Creates a new Checklist model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Facility();
+        $model = new Checklist();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id, 'checklist_id' => $model->checklist_id]);
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -76,18 +75,17 @@ class FacilityController extends Controller
     }
 
     /**
-     * Updates an existing Facility model.
+     * Updates an existing Checklist model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
-     * @param integer $checklist_id
      * @return mixed
      */
-    public function actionUpdate($id, $checklist_id)
+    public function actionUpdate($id)
     {
-        $model = $this->findModel($id, $checklist_id);
+        $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id, 'checklist_id' => $model->checklist_id]);
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -96,30 +94,28 @@ class FacilityController extends Controller
     }
 
     /**
-     * Deletes an existing Facility model.
+     * Deletes an existing Checklist model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
-     * @param integer $checklist_id
      * @return mixed
      */
-    public function actionDelete($id, $checklist_id)
+    public function actionDelete($id)
     {
-        $this->findModel($id, $checklist_id)->delete();
+        $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
     }
 
     /**
-     * Finds the Facility model based on its primary key value.
+     * Finds the Checklist model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @param integer $checklist_id
-     * @return Facility the loaded model
+     * @return Checklist the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($id, $checklist_id)
+    protected function findModel($id)
     {
-        if (($model = Facility::findOne(['id' => $id, 'checklist_id' => $checklist_id])) !== null) {
+        if (($model = Checklist::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

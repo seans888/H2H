@@ -35,7 +35,8 @@ class Facility extends \yii\db\ActiveRecord
         return [
             [['checklist_id'], 'required'],
             [['checklist_id'], 'integer'],
-            [['facility_type', 'facility_status', 'facility_qrcode'], 'string', 'max' => 45],
+            [['facility_type', 'facility_status'], 'string', 'max' => 45],
+            [['facility_qrcode'], 'string', 'max' => 64],
             [['checklist_id'], 'exist', 'skipOnError' => true, 'targetClass' => Checklist::className(), 'targetAttribute' => ['checklist_id' => 'id']],
         ];
     }

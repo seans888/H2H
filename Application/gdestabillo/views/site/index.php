@@ -25,7 +25,7 @@ $this->title = 'H2H Application';
 				communities they serve and partner with their host communities to provide a consistently high standard 
 				of service to their customers, look after the welfare of their employees and deliver sustainable returns 
 				to their shareholders, at all times upholding the highest standards of corporate governance in all their 
-				businesses. </p>s
+				businesses. </p>
 
                 <p><a class="btn btn-default" href="">SM Hotels and Convention Center &raquo;</a></p>
             </div>

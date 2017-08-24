@@ -22,5 +22,4 @@ class EmployeeController extends ActiveController
 
     public $modelClass = 'app\models\Employee';
 
-
 }

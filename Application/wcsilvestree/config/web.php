@@ -53,6 +53,7 @@ $config = [
             'rules' => [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'employee'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'employee2'],
             ],
         ],
 

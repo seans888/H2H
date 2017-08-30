@@ -1,0 +1,1 @@
+The Class Diagram describes the structure of the system by showing the system's classes, their attributes, operations or methods, and the relationships among entities. This Class Diagram have 7 entities. The Inspector entity has 3 subtypes which is Security, Duty Manager, and Engineering.

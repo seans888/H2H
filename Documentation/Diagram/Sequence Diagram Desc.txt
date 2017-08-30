@@ -1,0 +1,1 @@
+The Sequence Diagram shows how objects operate with one another and in what order.

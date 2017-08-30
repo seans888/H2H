@@ -20,12 +20,10 @@ use app\models\Checklist;
 
     <?= $form->field($model, 'facility_qrcode')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'checklist_id')->textInput() ?>
     <?= $form->field($model, 'checklist_id')->dropDownList(
-        ArrayHelper::map(Checklist::find()->all(), 'id', 'id'),
-        ['prompt'=>'Select Checklist']
+            ArrayHelper::map(Checklist::find()->all(), 'id', 'id'),
+            ['prompt'=>'Select Checklist']
     ) ?>
-
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

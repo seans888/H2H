@@ -2,15 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3af60ff9-b765-42d0-86b1-ce4e8564f76b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/controllers/EmployeeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/controllers/ScheduleController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/controllers/UserController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/models/Employee.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/models/EmployeeSearch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/models/Schedule.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/models/ScheduleSearch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/employee/_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/employee/_search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/employee/create.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/employee/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/employee/update.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/employee/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule/_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule/_search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule/create.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule/update.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule/view.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Application/wcsilvestree/web/index.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/apc_sysadd_mi151_04.iml" afterPath="$PROJECT_DIR$/.idea/apc_sysadd_mi151_04.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/gdestabillo/views/site/index.php" afterPath="$PROJECT_DIR$/Application/gdestabillo/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/assets/AppAsset.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/assets/AppAsset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/composer.lock" afterPath="$PROJECT_DIR$/Application/wcsilvestree/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/config/web.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/config/web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/controllers/EmployeeController.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/controllers/EmployeeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/controllers/Employee2Controller.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/controllers/Employee2Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/models/Checklist.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/models/Checklist.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/models/ChecklistSearch.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/models/ChecklistSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/models/ChecklistTemplate.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/models/ChecklistTemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/models/ChecklistTemplateSearch.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/models/ChecklistTemplateSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/models/Facility.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/models/Facility.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/models/User.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/_form.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/index.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/checklist/_form.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/checklist/_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/checklist/index.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/checklist/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/employee/index.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/employee/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/employee2/index.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/employee2/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/facility/_form.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/facility/_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/facility/index.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/facility/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule/index.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/layouts/main.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule1/create.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule1/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule1/index.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/schedule1/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/site/about.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/site/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/wcsilvestree/views/site/index.php" afterPath="$PROJECT_DIR$/Application/wcsilvestree/views/site/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,108 +55,102 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <executablePath>composer</executablePath>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmployeeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/EmployeeController.php">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="0">
+              <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="78" selection-end-column="9" />
               <folding>
-                <element signature="e#35#43#0#PHP" expanded="true" />
+                <element signature="e#66#87#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Checklist.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/Checklist.php">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/lgsalvador/views/site/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/facility/_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-243">
+              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/parallax-template/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="161" column="3" lean-forward="false" selection-start-line="161" selection-start-column="3" selection-end-line="161" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist/index.php">
+        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="236">
+              <caret line="41" column="86" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="86" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/runtime/logs/app.log">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/site/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24837">
-              <caret line="1461" column="266" lean-forward="false" selection-start-line="1461" selection-start-column="266" selection-end-line="1461" selection-end-column="266" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="58" column="6" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist/_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/employee/_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/facility/_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
-                <element signature="e#7#28#0#PHP" expanded="true" />
-                <marker date="1503235204533" expanded="true" signature="815:869" ph="..." />
+                <marker date="1504082591459" expanded="true" signature="1593:1817" ph="..." />
+                <marker date="1504082591459" expanded="true" signature="1871:2348" ph="..." />
+                <marker date="1504082591459" expanded="true" signature="2105:2329" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/Employee.php">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/gdestabillo/views/site/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            <state relative-caret-position="68">
+              <caret line="4" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/UserController.php">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/wcsilvestre/views/site/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="267">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,6 +161,21 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>request</find>
+      <find>init</find>
+      <find>speed</find>
+      <find>a modern</find>
+      <find>get started</find>
+      <find>light</find>
+      <find>font</find>
+      <find>header co</find>
+      <find>color</find>
+      <find>logo.p</find>
+      <find>#FFFFFF</find>
+      <find>h5</find>
+      <find>f</find>
+      <find>img</find>
+      <find>parallax img</find>
+      <find>asset</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,28 +184,55 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/index.php" />
         <option value="$PROJECT_DIR$/Application/wcsilvestree/views/employee/index.php" />
-        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/facility/index.php" />
         <option value="$PROJECT_DIR$/Application/wcsilvestree/views/schedule/index.php" />
         <option value="$PROJECT_DIR$/Application/wcsilvestree/controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/Application/wcsilvestree/config/web.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/schedule/create.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/_form.php" />
         <option value="$PROJECT_DIR$/Application/wcsilvestree/controllers/EmployeeController.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/schedule1/create.php" />
+        <option value="$USER_HOME$/Desktop/index.php" />
+        <option value="$USER_HOME$/Desktop/parallax-template/css/style.css" />
+        <option value="$PROJECT_DIR$/Application/gdestabillo/views/site/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Online Inquiry.url" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/web/css/materialize.css" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/composer.json" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/config/db.php" />
         <option value="$PROJECT_DIR$/Application/wcsilvestree/views/checklist/index.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/index.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/employee2/index.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/facility/index.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/schedule1/index.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/controllers/Employee2Controller.php" />
         <option value="$PROJECT_DIR$/Application/wcsilvestree/views/facility/_form.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/web/assets/7005a35a/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/web/assets/7005a35a/css/bootstrap.min.css" />
+        <option value="$USER_HOME$/Desktop/parallax-template/index.html" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/assets/AppAsset.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/config/web.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/site/index.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/Application/wcsilvestree/views/site/about.php" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -178,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,7 +274,7 @@
               <item name="apc_sysadd_mi151_04" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wcsilvestree" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="apc_sysadd_mi151_04" type="b2602c69:ProjectViewProjectNode" />
@@ -209,14 +282,6 @@
               <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wcsilvestree" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="apc_sysadd_mi151_04" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apc_sysadd_mi151_04" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wcsilvestree" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="checklist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="apc_sysadd_mi151_04" type="b2602c69:ProjectViewProjectNode" />
@@ -231,13 +296,17 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Windows/System32" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\GitHub\apc_sysadd_mi151_04\Application\wcsilvestree\views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -267,25 +336,43 @@
       <workItem from="1503146589044" duration="1105000" />
       <workItem from="1503216590980" duration="870000" />
       <workItem from="1503233609159" duration="3400000" />
+      <workItem from="1503316851082" duration="2722000" />
+      <workItem from="1503543944812" duration="1833000" />
+      <workItem from="1503547111014" duration="2691000" />
+      <workItem from="1503572870662" duration="926000" />
+      <workItem from="1503574209292" duration="84000" />
+      <workItem from="1503574312387" duration="704000" />
+      <workItem from="1503576196137" duration="8000" />
+      <workItem from="1503576246485" duration="9413000" />
+      <workItem from="1503639568203" duration="2512000" />
+      <workItem from="1503642186583" duration="7391000" />
+      <workItem from="1503672626018" duration="12329000" />
+      <workItem from="1503729874016" duration="5029000" />
+      <workItem from="1503735620523" duration="2717000" />
+      <workItem from="1503924328365" duration="5306000" />
+      <workItem from="1503974018832" duration="2813000" />
+      <workItem from="1504000763752" duration="7662000" />
+      <workItem from="1504061756086" duration="6593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15874000" />
+    <option name="totallyTimeSpent" value="86607000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19253294" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20851688" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -306,402 +393,357 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/Employee.php">
+    <entry file="file://$USER_HOME$/Desktop/parallax-template/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/UserController.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Online Inquiry.url" />
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="8" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="399">
+          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/db.php">
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/web/logo.png" />
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/ChecklistSearch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/EmployeeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#35#43#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/runtime/logs/app.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24837">
-          <caret line="1461" column="266" lean-forward="true" selection-start-line="1461" selection-start-column="266" selection-end-line="1461" selection-end-column="266" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="54" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="8" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/Employee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/EmployeeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#35#43#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/test_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/console.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/EmployeeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#35#43#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/test_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/console.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/facility/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/schedule/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/employee/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/test_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/console.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/runtime/logs/app.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24837">
-          <caret line="1461" column="266" lean-forward="false" selection-start-line="1461" selection-start-column="266" selection-end-line="1461" selection-end-column="266" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="8" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/Employee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/EmployeeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="e#35#43#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/Checklist.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/gdestabillo/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/ChecklistController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/index.php" />
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestre/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/test_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/schedule1/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/web/css/materialize.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="714" lean-forward="false" selection-start-line="5" selection-start-column="714" selection-end-line="5" selection-end-column="714" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/parallax-template/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7650">
+          <caret line="450" column="28" lean-forward="false" selection-start-line="450" selection-start-column="28" selection-end-line="450" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/parallax-template/index.php" />
+    <entry file="file://$PROJECT_DIR$/Application/alcornel/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/web/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2787" column="1" lean-forward="false" selection-start-line="2787" selection-start-column="1" selection-end-line="2787" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/gdestabillo/assets/AppAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/employee2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/schedule1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist-template/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/facility/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/controllers/Employee2Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestre/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/gdestabillo/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/web/assets/7005a35a/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="4" column="13598" lean-forward="true" selection-start-line="4" selection-start-column="13598" selection-end-line="4" selection-end-column="13598" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/web/assets/7005a35a/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62934">
+          <caret line="3702" column="27" lean-forward="true" selection-start-line="3702" selection-start-column="27" selection-end-line="3702" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/models/Facility.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist/index.php">
+    <entry file="file://$USER_HOME$/Desktop/materialize/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="467">
+          <caret line="170" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/parallax-template/css/materialize.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="5" column="7227" lean-forward="false" selection-start-line="5" selection-start-column="7227" selection-end-line="5" selection-end-column="7227" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/config/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="58" column="6" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/checklist/_form.php">
+    <entry file="file://$USER_HOME$/Desktop/test/parallax-template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/employee/_form.php">
+    <entry file="file://$USER_HOME$/Desktop/parallax-template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="335">
+          <caret line="161" column="3" lean-forward="false" selection-start-line="161" selection-start-column="3" selection-end-line="161" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/lgsalvador/views/site/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/assets/AppAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/gdestabillo/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestre/views/site/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/gdestabillo/views/site/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/facility/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="-243">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="78" selection-end-column="9" />
           <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
-            <marker date="1503235204533" expanded="true" signature="815:869" ph="..." />
+            <element signature="e#66#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="41" column="86" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/wcsilvestree/views/site/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <marker date="1504082591459" expanded="true" signature="1593:1817" ph="..." />
+            <marker date="1504082591459" expanded="true" signature="1871:2348" ph="..." />
+            <marker date="1504082591459" expanded="true" signature="2105:2329" ph="..." />
           </folding>
         </state>
       </provider>

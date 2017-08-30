@@ -37,10 +37,6 @@ class SiteController extends Controller
             ],
         ];
     }
-	
-	
-
-
 
     /**
      * @inheritdoc
@@ -127,12 +123,4 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
-
-	public function actionSay($message = 'Hello World Pogi si leo')
-	{
-		return $this->render('say', ['message' => $message]);
-	}
 }
-
-
-

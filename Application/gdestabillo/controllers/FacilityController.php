@@ -3,14 +3,14 @@
 namespace app\controllers;
 
 use Yii;
-use app\models\facility;
-use app\models\facilitySearch;
+use app\models\Facility;
+use app\models\FacilitySearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * FacilityController implements the CRUD actions for facility model.
+ * FacilityController implements the CRUD actions for Facility model.
  */
 class FacilityController extends Controller
 {
@@ -30,12 +30,12 @@ class FacilityController extends Controller
     }
 
     /**
-     * Lists all facility models.
+     * Lists all Facility models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new facilitySearch();
+        $searchModel = new FacilitySearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -45,7 +45,7 @@ class FacilityController extends Controller
     }
 
     /**
-     * Displays a single facility model.
+     * Displays a single Facility model.
      * @param integer $id
      * @param integer $checklist_id
      * @return mixed
@@ -58,13 +58,13 @@ class FacilityController extends Controller
     }
 
     /**
-     * Creates a new facility model.
+     * Creates a new Facility model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new facility();
+        $model = new Facility();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id, 'checklist_id' => $model->checklist_id]);
@@ -76,7 +76,7 @@ class FacilityController extends Controller
     }
 
     /**
-     * Updates an existing facility model.
+     * Updates an existing Facility model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @param integer $checklist_id
@@ -96,7 +96,7 @@ class FacilityController extends Controller
     }
 
     /**
-     * Deletes an existing facility model.
+     * Deletes an existing Facility model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @param integer $checklist_id
@@ -110,16 +110,16 @@ class FacilityController extends Controller
     }
 
     /**
-     * Finds the facility model based on its primary key value.
+     * Finds the Facility model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
      * @param integer $checklist_id
-     * @return facility the loaded model
+     * @return Facility the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id, $checklist_id)
     {
-        if (($model = facility::findOne(['id' => $id, 'checklist_id' => $checklist_id])) !== null) {
+        if (($model = Facility::findOne(['id' => $id, 'checklist_id' => $checklist_id])) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

@@ -38,7 +38,6 @@ $this->title = 'H2H Application';
 				process that uses paper-based checklist. Inspection Application makes the inspection easier by generating 
 				electronic check list in an organized manner. It also makes the inspection paper-less.</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Purpose and Description</h2>

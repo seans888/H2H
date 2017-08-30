@@ -19,8 +19,7 @@ class ChecklistTemplateSearch extends ChecklistTemplate
     {
         return [
             [['id', 'checklist_template_equipment_number', 'checklist_id'], 'integer'],
-            [['checklist_template_type', 'checklist_template_equipment', 'checklist_template_equipment_description'], 'safe'],
-            [['checklist_template_temperature'], 'number'],
+            [['checklist_template_type', 'checklist_template_equipment', 'checklist_template_temperature', 'checklist_template_equipment_description'], 'safe'],
         ];
     }
 
@@ -61,13 +60,13 @@ class ChecklistTemplateSearch extends ChecklistTemplate
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-            'checklist_template_temperature' => $this->checklist_template_temperature,
             'checklist_template_equipment_number' => $this->checklist_template_equipment_number,
             'checklist_id' => $this->checklist_id,
         ]);
 
         $query->andFilterWhere(['like', 'checklist_template_type', $this->checklist_template_type])
             ->andFilterWhere(['like', 'checklist_template_equipment', $this->checklist_template_equipment])
+            ->andFilterWhere(['like', 'checklist_template_temperature', $this->checklist_template_temperature])
             ->andFilterWhere(['like', 'checklist_template_equipment_description', $this->checklist_template_equipment_description]);
 
         return $dataProvider;

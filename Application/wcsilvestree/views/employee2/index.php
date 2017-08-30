@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\Employee2Search */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Employees';
+$this->title = 'Employee2s';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="employee2-index">
@@ -24,7 +24,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            // 'id',
+            //'id',
             'employee_lastname',
             'employee_firstname',
             'employee_number',

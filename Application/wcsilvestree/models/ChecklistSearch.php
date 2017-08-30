@@ -18,8 +18,8 @@ class ChecklistSearch extends Checklist
     public function rules()
     {
         return [
-            [['id', 'checklist_quantity_on_hand'], 'integer'],
-            [['checklist_equipment'], 'safe'],
+            [['id'], 'integer'],
+            [['checklist_equipment', 'checklist_quantity_on_hand'], 'safe'],
         ];
     }
 
@@ -60,10 +60,10 @@ class ChecklistSearch extends Checklist
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-            'checklist_quantity_on_hand' => $this->checklist_quantity_on_hand,
         ]);
 
-        $query->andFilterWhere(['like', 'checklist_equipment', $this->checklist_equipment]);
+        $query->andFilterWhere(['like', 'checklist_equipment', $this->checklist_equipment])
+            ->andFilterWhere(['like', 'checklist_quantity_on_hand', $this->checklist_quantity_on_hand]);
 
         return $dataProvider;
     }

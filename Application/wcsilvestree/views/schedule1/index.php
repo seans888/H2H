@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\Schedule1Search */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Schedules';
+$this->title = 'Schedule1s';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="schedule1-index">
@@ -24,7 +24,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            // 'id',
+            //'id',
             'schudule_date',
 
             ['class' => 'yii\grid\ActionColumn'],
